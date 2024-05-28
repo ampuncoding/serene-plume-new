@@ -1,0 +1,11 @@
+body {
+    background-image: url(fira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 45px;
+    margin-right: 150px;
+}

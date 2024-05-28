@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Willow';
+    src: url('Willow.ttf'); 
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('Nexa-Heavy.ttf'); 
+}
+
+@font-face {
+    font-family: 'Lemon Milk';
+    src: url('LEMONMILK-Light.otf');
+}
+
+@font-face {
+    font-family: 'ZTTalk';
+    src: url('ZTTalk-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'fontAnggota';
+    src: url('MIDWATCHES.ttf');
+}
+
+body {
+    background-image: url(fira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+nav {
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    top: 20px;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.group-title {
+    font-size: 70px;
+    font-style: italic;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #FDB0C0, 0 0 30px #FDB0C0, 0 0 40px #FDB0C0, 0 0 50px #FDB0C0, 0 0 60px #FDB0C0; 
+    font-family: 'ZTTalk', sans-serif;
+    color: #BC1823;
+    margin-bottom: 10px; /* Jarak antara judul dan navigasi */
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 45px;
+    margin-right: 150px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+    font-family: 'Nexa', sans-serif;
+}
+
+h2 {
+    font-size: 44px;
+    color: #C9413F;
+    font-family: 'Willow', sans-serif;
+}
+
+h3 {
+    font-size: 35px;
+    color: black;
+    font-family: 'fontAnggota', sans-serif;
+}
